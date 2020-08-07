@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duke Rewards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p82-hG-i8o">
+                                <rect key="frame" x="34.5" y="528" width="346" height="49.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="p82-hG-i8o" secondAttribute="height" multiplier="7:1" id="VKj-3Q-zGf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="36"/>
+                                <color key="textColor" red="1" green="0.99998790029999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_illustration" translatesAutoresizingMaskIntoConstraints="NO" id="wdA-G2-hCM">
+                                <rect key="frame" x="-21" y="0.0" width="449" height="927.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wdA-G2-hCM" secondAttribute="height" multiplier="441:911" id="kUc-6o-uVb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="p82-hG-i8o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34.5" id="aLP-48-e5v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="wdA-G2-hCM" secondAttribute="leading" constant="21" id="ekn-gp-BKs"/>
+                            <constraint firstItem="p82-hG-i8o" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="484" id="h9p-js-bxi"/>
+                            <constraint firstItem="wdA-G2-hCM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="14" id="iON-4n-yMX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="wdA-G2-hCM" secondAttribute="top" constant="44" id="ud0-FT-uQm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p82-hG-i8o" secondAttribute="trailing" constant="33.5" id="vDw-tN-LFC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-201.44927536231884" y="345.53571428571428"/>
+        </scene>
+        <!--Onboarding View Controller-->
+        <scene sceneID="ABj-Ru-iHp">
+            <objects>
+                <viewController storyboardIdentifier="onboarding" id="VuD-sU-EhO" customClass="OnboardingViewController" customModule="DukeRewards" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vt0-Lg-QZG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_illustration" translatesAutoresizingMaskIntoConstraints="NO" id="HgH-Qj-msX">
+                                <rect key="frame" x="-3" y="-5" width="420" height="904"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="W E L C O M E   T O" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gi8-7V-zwi">
+                                <rect key="frame" x="36" y="549" width="342" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="12"/>
+                                <color key="textColor" red="1" green="0.99998790029999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9c-O0-ylj">
+                                <rect key="frame" x="80" y="702" width="254" height="55"/>
+                                <color key="backgroundColor" red="0.88235294119999996" green="0.90196078430000004" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="VNk-VN-0he"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" red="0.1450980392" green="0.18039215689999999" blue="0.39607843139999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duke Rewards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3l-6L-MUd">
+                                <rect key="frame" x="36" y="571.5" width="342" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="E8W-Ly-xPl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="36"/>
+                                <color key="textColor" red="1" green="0.99998790029999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get rewards by going to events and activities!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcw-nW-YCg">
+                                <rect key="frame" x="117" y="621.5" width="180" height="38.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.99998790029999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b3l-6L-MUd" firstAttribute="leading" secondItem="kRr-5N-FUf" secondAttribute="leading" constant="36" id="C8d-Kb-Gy9"/>
+                            <constraint firstItem="Gi8-7V-zwi" firstAttribute="centerX" secondItem="vt0-Lg-QZG" secondAttribute="centerX" id="Cwp-kz-Z0E"/>
+                            <constraint firstItem="Gi8-7V-zwi" firstAttribute="top" secondItem="kRr-5N-FUf" secondAttribute="top" constant="505" id="HNh-Nm-Ind"/>
+                            <constraint firstItem="kRr-5N-FUf" firstAttribute="trailing" secondItem="dcw-nW-YCg" secondAttribute="trailing" constant="117" id="Nj6-I1-3Ju"/>
+                            <constraint firstItem="HgH-Qj-msX" firstAttribute="leading" secondItem="vt0-Lg-QZG" secondAttribute="leading" constant="-3" id="R3C-QU-NzS"/>
+                            <constraint firstItem="kRr-5N-FUf" firstAttribute="trailing" secondItem="Gi8-7V-zwi" secondAttribute="trailing" constant="36" id="RRy-kD-548"/>
+                            <constraint firstItem="b3l-6L-MUd" firstAttribute="top" secondItem="Gi8-7V-zwi" secondAttribute="bottom" constant="6" id="Rmu-Rk-mHB"/>
+                            <constraint firstAttribute="bottom" secondItem="HgH-Qj-msX" secondAttribute="bottom" constant="-3" id="ZPD-pN-Qak"/>
+                            <constraint firstAttribute="trailing" secondItem="HgH-Qj-msX" secondAttribute="trailing" constant="-3" id="aEQ-pz-Kjk"/>
+                            <constraint firstItem="kRr-5N-FUf" firstAttribute="trailing" secondItem="b3l-6L-MUd" secondAttribute="trailing" constant="36" id="dzh-Jk-9YZ"/>
+                            <constraint firstItem="kRr-5N-FUf" firstAttribute="trailing" secondItem="Z9c-O0-ylj" secondAttribute="trailing" constant="80" id="eja-La-CQv"/>
+                            <constraint firstItem="dcw-nW-YCg" firstAttribute="top" secondItem="b3l-6L-MUd" secondAttribute="bottom" constant="8" id="hgA-5S-SPT"/>
+                            <constraint firstItem="Z9c-O0-ylj" firstAttribute="leading" secondItem="kRr-5N-FUf" secondAttribute="leading" constant="80" id="pkE-tv-mZX"/>
+                            <constraint firstItem="dcw-nW-YCg" firstAttribute="leading" secondItem="kRr-5N-FUf" secondAttribute="leading" constant="117" id="slK-Sd-183"/>
+                            <constraint firstItem="HgH-Qj-msX" firstAttribute="top" secondItem="vt0-Lg-QZG" secondAttribute="top" constant="-5" id="uqQ-PV-81r"/>
+                            <constraint firstItem="Gi8-7V-zwi" firstAttribute="leading" secondItem="kRr-5N-FUf" secondAttribute="leading" constant="36" id="vZl-Rq-FI5"/>
+                            <constraint firstItem="kRr-5N-FUf" firstAttribute="bottom" secondItem="Z9c-O0-ylj" secondAttribute="bottom" constant="105" id="zrQ-9B-bTI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kRr-5N-FUf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="h6r-So-AQz"/>
+                    <connections>
+                        <outlet property="getStartedButton" destination="Z9c-O0-ylj" id="Wqw-KN-2IR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dPP-4n-xm1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1135" y="346"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="onboarding_illustration" width="4697" height="10189"/>
+    </resources>
+</document>

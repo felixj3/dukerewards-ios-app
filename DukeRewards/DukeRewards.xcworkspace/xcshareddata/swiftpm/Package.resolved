@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DukeOAuth",
+        "repositoryURL": "https://gitlab.oit.duke.edu/mobile/dukeoauth.git",
+        "state": {
+          "branch": "master",
+          "revision": "f4dd5c7c7ba2d11de782713bf79da4a95d78f2e1",
+          "version": null
+        }
+      },
+      {
+        "package": "SwiftKeychainWrapper",
+        "repositoryURL": "https://github.com/ralcr/SwiftKeychainWrapper",
+        "state": {
+          "branch": "develop",
+          "revision": "c746065ce51300883497de28b6ff278f6cc40b52",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

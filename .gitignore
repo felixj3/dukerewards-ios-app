@@ -1,0 +1,13 @@
+# **/.DS_Store
+# */.DS_Store
+# Apparently .DS_Store is enough to match any file names .DS_Store anywhere in the directory, but I have the other things just in case
+.DS_Store
+
+# any user data is ignored
+#DukeRewards/DukeRewards.xcodeproj/project.xcworkspace/xcuserdata/
+#DukeRewards/DukeRewards.xcodeproj/xcuserdata/
+#DukeRewards/DukeRewards.xcworkspace/xcuserdata/
+#Pods/Pods.xcodeproj/xcuserdata/
+xcuserdata/
+# DukeRewards.entitlements
+# Felix put entitlements in because it was a new file added after building onto phon
