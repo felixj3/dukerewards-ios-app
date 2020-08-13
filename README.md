@@ -8,7 +8,7 @@ Duke Rewards is an iOS app that seeks to increase student attendance and engagem
 
 If interested, check out the [demo video](https://youtu.be/hx9ewikBvFA) for the entire project (both iOS app and web app)
 
-![DukeRewards Phone scaled up](https://user-images.githubusercontent.com/35779198/89676192-df466e00-d8b0-11ea-9750-137c55d77221.jpg)
+![ios compatibility](https://user-images.githubusercontent.com/35779198/90188876-d4447f80-dd81-11ea-93e3-3100dcd5c1cf.jpeg)
 
 
 ## Information Architecture
